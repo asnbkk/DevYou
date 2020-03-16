@@ -1,0 +1,26 @@
+.course-detail {
+    padding: 1rem;
+    padding-top: 7rem;
+}
+.course-image {
+}
+.course-image img {
+    width: calc(100vw - 2rem);
+    border-radius: 20px;
+}
+.name {
+    margin: 1rem 0;
+    font-size: 32px;
+}
+desc {
+    color: rgb(59, 59, 59);
+}
+.header {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 1rem;
+    position: fixed;
+    background: #fff;;
+    width: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

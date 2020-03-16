@@ -1,0 +1,11 @@
+<div *ngIf='course_list' class="course-list" (click)='onSelect(course.id)'>
+    <img src='{{ course.image }}'>
+    <div class="course-list_title">{{ course.name }}</div>
+    <div class="course-list_desc">{{ course.description }}</div>
+</div>
+
+<div *ngIf='!course_list'class="course-item" (click)='onSelect(course.id)'>
+    <img src='{{ course.image }}'>
+    <div class="course-item_title">{{ course.name }}</div>
+    <div class="course-item_desc">{{ course.description }}</div>
+</div>

@@ -1,0 +1,9 @@
+<div class="recs">
+    <div class="recs_title">Рекомендуем</div>
+    <div class="recs_inner">
+        <app-course-item 
+        *ngFor="let course of courses"
+        [course]='course'
+        ></app-course-item>
+    </div>
+</div>

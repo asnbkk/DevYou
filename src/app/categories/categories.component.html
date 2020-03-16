@@ -1,0 +1,8 @@
+<div class="cat">
+    <div class="cat_title">Категории</div>
+    <div *ngFor='let category of categories'>
+        <app-category-item 
+        (click)='onSelect(category.name)'
+        [name]='category.name'></app-category-item>
+    </div>
+</div>

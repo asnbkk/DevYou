@@ -1,0 +1,17 @@
+<div class="course-list">
+    <div class="course-list-title-wrapper">
+        <div class="back" (click)='goBack()'>
+            <img src="assets/img/back.png" alt="">
+        </div>
+        <div class="title">
+            {{courses[0].category}}
+        </div>
+    </div>
+    <div class="course-list_list">
+        <div *ngFor="let course of courses">
+            <app-course-item
+            [course]="course"
+            [course_list]='true'></app-course-item>
+        </div>
+    </div>
+</div>
