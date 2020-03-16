@@ -1,0 +1,11 @@
+[
+    {"id": 1, "name": "Photoname1", "image": "assets/img/1.jpg", "category": "Фотография", "description": "photoname1Description"},
+    {"id": 2, "name": "Photoname2", "image": "assets/img/2.jpg", "category": "Фотография", "description": "photoname2Description"},
+    {"id": 3, "name": "Photoname3", "image": "assets/img/3.jpg", "category": "Фотография", "description": "photoname3Description"},
+    {"id": 4, "name": "Photoname4", "image": "assets/img/4.jpg", "category": "Бизнес", "description": "busname4Description"},
+    {"id": 5, "name": "Photoname5", "image": "assets/img/5.jpg", "category": "Бизнес", "description": "busname5Description"},
+    {"id": 6, "name": "Photoname6", "image": "assets/img/6.jpg", "category": "Маркетинг", "description": "busname6Description"},
+    {"id": 7, "name": "Photoname7", "image": "assets/img/7.jpg", "category": "Маркетинг", "description": "marketname7Description"},
+    {"id": 8, "name": "Photoname8", "image": "assets/img/8.jpg", "category": "Вождение", "description": "drivename7Description"},
+    {"id": 9, "name": "Photoname9", "image": "assets/img/9.jpg", "category": "Вождение", "description": "drivename9Description"}
+]
